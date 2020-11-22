@@ -16,11 +16,11 @@ import java.nio.*;
 import java.io.*;
 import static java.nio.file.Files.newInputStream;
 
-//Atributes
-public class Library {
-    String ownerName;
-    private SongCollection home;
-    private Hashtable<String, Playlist> playlists;
+    //Attributes
+    public class Library {
+        String ownerName;
+        private SongCollection home;
+        private Hashtable<String, Playlist> playlists;
 
     // Constructor
     public Library(String ownerName) {
